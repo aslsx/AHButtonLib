@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHButtonLib_Example' do
+  pod 'AHButtonLib', :path => '../'
+
+  target 'AHButtonLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

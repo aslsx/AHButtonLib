@@ -1,0 +1,6 @@
+framework module AHButtonLib {
+  umbrella header "AHButtonLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

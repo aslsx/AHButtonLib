@@ -1,0 +1,19 @@
+PODS:
+  - AHButtonLib (0.1.0):
+    - Masonry (~> 1.0.2)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - AHButtonLib (from `../`)
+
+EXTERNAL SOURCES:
+  AHButtonLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AHButtonLib: 766b940da48f6ae7412780b43c1fb010daa4b3aa
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 02ba8666b9a15852079e7421548b36f620f4c9d2
+
+COCOAPODS: 1.2.1

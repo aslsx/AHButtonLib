@@ -1,0 +1,28 @@
+{
+  "name": "AHButtonLib",
+  "version": "0.1.0",
+  "summary": "A short description of AHButtonLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aslsx/AHButtonLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aslsx11@163.com": "sangyongping@autohome.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/aslsx/AHButtonLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AHButtonLib/Classes/**/*",
+  "public_header_files": "AHButtonLib/Classes/**/*.h",
+  "dependencies": {
+    "Masonry": [
+      "~> 1.0.2"
+    ]
+  }
+}
