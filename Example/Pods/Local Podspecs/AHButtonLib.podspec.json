@@ -1,8 +1,8 @@
 {
   "name": "AHButtonLib",
   "version": "0.1.0",
-  "summary": "A short description of AHButtonLib.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "This is a private repo about button style.",
+  "description": "This is a private repo about button style. We have more special fuctions in the future.",
   "homepage": "https://github.com/aslsx/AHButtonLib",
   "license": {
     "type": "MIT",
@@ -18,8 +18,14 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AHButtonLib/Classes/**/*",
-  "public_header_files": "AHButtonLib/Classes/**/*.h",
+  "requires_arc": true,
+  "ios": {
+    "vendored_frameworks": "AHButtonLib-0.1.0/ios/AHButtonLib.framework"
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
   "dependencies": {
     "Masonry": [
       "~> 1.0.2"

@@ -7,136 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02E6694B5E4F5C24437E54E196ECFEC5 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A0F4CAC6668166783CA2668CAC24D20 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C79912803D8280551D0D0D1FD63360E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CAAFB38C8DCDFCEE47E7394FA1FC98E /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		125B16CD80BD3084E6E91EB0CB2FEB37 /* ASDButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B130E6BF3AE24A2DA252AF5BD6DD4383 /* ASDButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12E8617B70BFD091B278A60932A06DA6 /* AHButtonLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 954DF2C984B45504D297DA9A331C7CCE /* AHButtonLib-dummy.m */; };
+		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		072E888627873DF459A575B4017870F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1605C24DEB2913B362440871EBB107E4 /* Pods-AHButtonLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B8CA4B200EEECB6697464C66B3FA50 /* Pods-AHButtonLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D50BF5524E73D51A95C58F2080F3210 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
-		24CF559EBD702C6CF9730C2482D21EEC /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
-		2AABFBA00A0052288FC4E742A9259D81 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34485425C5496F288EB6C0106AE859BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC31C30AA1B843123575E6EBA38993C /* UIKit.framework */; };
-		3654EE0AA9816C22B91936F233D72316 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B0F82B357C2319BFCAB0958AB834D4A /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FBA4F5F64133FE60EBB89825394004E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
+		1CFAC4C9AFDD041DF3A5B54CE074D744 /* Pods-AHButtonLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C97199FC65CDE699A51E58BE760DD859 /* Pods-AHButtonLib_Example-dummy.m */; };
+		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		419055A8746D8F4D1B61481B0466A985 /* Pods-AHButtonLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BA0DB596E12A8C9038EDD43CE4556B /* Pods-AHButtonLib_Tests-dummy.m */; };
-		41A02F766CDC7F72AB0CE8B98A666058 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		4D3D9D7334BA01EF9AF66C895E2CC02F /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
-		50E1F23E4C8119C7DE16BBC2A7762A10 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
-		56E88CEE0C992E4BA8A5836C12DE60FD /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
-		64C3D6510E403FFE0BD0129F3AED31D7 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66A8A1A16C9D6871449085AAE43F8867 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B2626680038CC8B82DD26A151DA661F /* Pods-AHButtonLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C97199FC65CDE699A51E58BE760DD859 /* Pods-AHButtonLib_Example-dummy.m */; };
-		76407B0F1B76B351C1CB721DCED082E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
-		7B4B41DF77C9F48A25D8B429A1E11715 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92BABAA41041CE7D66F5DF7F7548F876 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FE91F84DCD081CEAF3FDCEC4C7B390F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
-		A0F360F0DF876E1DF8A7AD00CF70AAF4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB44B53FBFECDF3CA547ED77FF534C07 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
-		B28C3E979D695D888C713833B1298225 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
-		BBF9D98010E179D127F68A5F7BC873F1 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3E26CE991FFF89835E3450A83F0130C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
-		C48F921164204BBF46176E7AD9C14602 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5E1CFAEC408F0808A42494E243D1B37 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB3B2AA59C74C5506A684C536CC86F8A /* ASDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B26BE9F409054E0ED041341B1D188C /* ASDButton.m */; };
-		CE00A29FEB04B174D1569CAE8DDDBB75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
-		CF5A356A4705B8459D3F3B3DD846B4FD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
-		DFC6729FA54C7D13E2D6DF1A2736372F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
-		E0E04DE7DE8E88B72221BFE71755139F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
-		EE8825F9C6F7512222BC457AF3E8EB93 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8DA6E7D11620E2EE45C88D35D4A0E9C /* Pods-AHButtonLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B3EFCE3BAF25B441AA25656798AD45 /* Pods-AHButtonLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA0730A365C06053823C60EBC662221F /* AHButtonLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E54B0EF88436F19E6E9E9C944065DF /* AHButtonLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
+		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
+		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
+		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97F1B0E864649F7D2955052B905C579C /* Pods-AHButtonLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B3EFCE3BAF25B441AA25656798AD45 /* Pods-AHButtonLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
+		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFC6729FA54C7D13E2D6DF1A2736372F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DF41680419F96517590C319E0D474B6 /* PBXContainerItemProxy */ = {
+		48154ADEF8473F7A0315C4E39EC61146 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B49FA643843178271C8245276A6E4F59;
-			remoteInfo = Masonry;
-		};
-		6457AF4B5F024EA125EDF13382CEAC59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65CFDA72D05FEC4C8B09ED9030C5D6F9;
-			remoteInfo = AHButtonLib;
-		};
-		EA1B5D2113CAF06E33C138DA8E0A2659 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B49FA643843178271C8245276A6E4F59;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
 			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E54B0EF88436F19E6E9E9C944065DF /* AHButtonLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHButtonLib-umbrella.h"; sourceTree = "<group>"; };
+		00B98DAD6A1A6F6CB128004EA8E7E59F /* AHButtonLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AHButtonLib.framework; path = "AHButtonLib-0.1.0/ios/AHButtonLib.framework"; sourceTree = "<group>"; };
 		06585112B4291E56EADC55B1D98E30A5 /* Pods-AHButtonLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHButtonLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		0BD8F37337A327E07CA92105F980E4C3 /* Pods-AHButtonLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHButtonLib_Example-resources.sh"; sourceTree = "<group>"; };
-		0CD5B12077137CD98D17AE524D9923C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DC31C30AA1B843123575E6EBA38993C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0FE3BBBC864D3799519E1B78BA69B9BC /* Pods-AHButtonLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHButtonLib_Tests.modulemap"; sourceTree = "<group>"; };
 		13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		19AB3D4D54CCA4343F9A0226FA914E2E /* Pods_AHButtonLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHButtonLib_Tests.framework; path = "Pods-AHButtonLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		201CC46DF4E71C6AB311CC814E48C8F7 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		2FEC87CBCD27E74571194D94A689B0C6 /* Pods_AHButtonLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHButtonLib_Example.framework; path = "Pods-AHButtonLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
 		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		3263B1976BB221A8256FE3039330EE2C /* AHButtonLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHButtonLib.xcconfig; sourceTree = "<group>"; };
 		35B3EFCE3BAF25B441AA25656798AD45 /* Pods-AHButtonLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHButtonLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		38B70A33E0C26D3B1CF1304FFF53EF8B /* Pods-AHButtonLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHButtonLib_Example.modulemap"; sourceTree = "<group>"; };
 		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3FC85B2882B85F84078C509997F01131 /* AHButtonLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHButtonLib-prefix.pch"; sourceTree = "<group>"; };
 		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		5600B7CC55CCE715215C364B59009F95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		5D2457F5F7D6403A8039538C44716995 /* Pods-AHButtonLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHButtonLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5FDCE4E829781FD2AED85E82F233BACB /* AHButtonLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHButtonLib.framework; path = AHButtonLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		70B26BE9F409054E0ED041341B1D188C /* ASDButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASDButton.m; sourceTree = "<group>"; };
 		742A7F62F66DBB16E048726BFE4D6AEF /* Pods-AHButtonLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHButtonLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7570BA579D1E0131B1BAD898F36E9905 /* Pods-AHButtonLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHButtonLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		7F44A621BE24B87AEF75DD7193846188 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		848A22C69638D55424736A7E57530671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		850052C560B67ABEA978CD8C8DD24B56 /* Pods-AHButtonLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHButtonLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		88BA0DB596E12A8C9038EDD43CE4556B /* Pods-AHButtonLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHButtonLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		9338D50D6BAB611DBA2223B59A9833DE /* Pods-AHButtonLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHButtonLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		954DF2C984B45504D297DA9A331C7CCE /* AHButtonLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHButtonLib-dummy.m"; sourceTree = "<group>"; };
 		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		9E1E80E5921B4FA723435DA86DAF19F1 /* Pods-AHButtonLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHButtonLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		A6FC3D993854C33727325B3448D232DC /* AHButtonLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AHButtonLib.modulemap; sourceTree = "<group>"; };
 		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		B130E6BF3AE24A2DA252AF5BD6DD4383 /* ASDButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASDButton.h; sourceTree = "<group>"; };
 		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B84050DDBA55D64BA7E7BAD7D8050353 /* Pods-AHButtonLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHButtonLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BA95F132D0D8D03F58F887AF6129D4D5 /* Pods_AHButtonLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHButtonLib_Tests.framework; path = "Pods-AHButtonLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B8CA4B200EEECB6697464C66B3FA50 /* Pods-AHButtonLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHButtonLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		C97199FC65CDE699A51E58BE760DD859 /* Pods-AHButtonLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHButtonLib_Example-dummy.m"; sourceTree = "<group>"; };
 		CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D9CC6D0368642E18B6689568C6CA0418 /* Pods-AHButtonLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHButtonLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E1910D972CFD9810E6D6BB2D68FC32F1 /* Pods-AHButtonLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHButtonLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		EF8549EAB82B6DECD2636C2620913E6A /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD66ADA931666EFE53144694A39F1C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AD8F5E88C16312390EAD6AC896C700 /* Pods_AHButtonLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHButtonLib_Example.framework; path = "Pods-AHButtonLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		FA25B221CA64646339FE3A91D351464E /* Pods-AHButtonLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHButtonLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
@@ -153,50 +124,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B1BAF532C16771538815A9C0F3AEC71 /* Frameworks */ = {
+		A760B044C3B1B37EBB4689C5DD3DD326 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBA4F5F64133FE60EBB89825394004E /* Foundation.framework in Frameworks */,
-				4D3D9D7334BA01EF9AF66C895E2CC02F /* Masonry.framework in Frameworks */,
+				072E888627873DF459A575B4017870F7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D18E11B97C4DF1B43D5CCBFD7C635D7E /* Frameworks */ = {
+		F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76407B0F1B76B351C1CB721DCED082E9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA776C8120AAE9B21DFD4A983BC036AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE00A29FEB04B174D1569CAE8DDDBB75 /* Foundation.framework in Frameworks */,
-				34485425C5496F288EB6C0106AE859BD /* UIKit.framework in Frameworks */,
+				432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */,
+				38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2807CD0072950142B9EC5084F74F3E3A /* Development Pods */ = {
+		18C8EDCA8D54826C96DECB5AED3D170C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				77AC614CFD8050811995383137971DCB /* AHButtonLib */,
+				00B98DAD6A1A6F6CB128004EA8E7E59F /* AHButtonLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D14AA4D4E04B7FC813B003039ABD404 /* AHButtonLib */ = {
+			isa = PBXGroup;
+			children = (
+				18C8EDCA8D54826C96DECB5AED3D170C /* Frameworks */,
+			);
+			name = AHButtonLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3CB13A9BBBBC1C7D061AE8E6F0FCCC2F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D14AA4D4E04B7FC813B003039ABD404 /* AHButtonLib */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		59511511C2B4BC905C933DCC67E365C4 /* Frameworks */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */,
-				AB02C94D765D376FFAFCAF1BEEEEE566 /* iOS */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		5D713B215B8ECA3939C37D471C9B71F7 /* Pods-AHButtonLib_Example */ = {
@@ -217,26 +204,6 @@
 			path = "Target Support Files/Pods-AHButtonLib_Example";
 			sourceTree = "<group>";
 		};
-		71188A68FFF44554FF04614D428BE357 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B130E6BF3AE24A2DA252AF5BD6DD4383 /* ASDButton.h */,
-				70B26BE9F409054E0ED041341B1D188C /* ASDButton.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		77AC614CFD8050811995383137971DCB /* AHButtonLib */ = {
-			isa = PBXGroup;
-			children = (
-				946F22E25C073634A257EC17127D98F7 /* AHButtonLib */,
-				AF25BBC42E3681881F83FBD2F6AD1E52 /* Support Files */,
-			);
-			name = AHButtonLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7C2AEADD68A61711B2121818FE73F03C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,32 +217,12 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2807CD0072950142B9EC5084F74F3E3A /* Development Pods */,
-				59511511C2B4BC905C933DCC67E365C4 /* Frameworks */,
+				3CB13A9BBBBC1C7D061AE8E6F0FCCC2F /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
-				8B0E646A1D05BC513E037C9C11D44BD0 /* Products */,
+				D5B9710C6FD562E9FB299BA6195DE509 /* Products */,
 				7C2AEADD68A61711B2121818FE73F03C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8B0E646A1D05BC513E037C9C11D44BD0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5FDCE4E829781FD2AED85E82F233BACB /* AHButtonLib.framework */,
-				201CC46DF4E71C6AB311CC814E48C8F7 /* Masonry.framework */,
-				2FEC87CBCD27E74571194D94A689B0C6 /* Pods_AHButtonLib_Example.framework */,
-				BA95F132D0D8D03F58F887AF6129D4D5 /* Pods_AHButtonLib_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		946F22E25C073634A257EC17127D98F7 /* AHButtonLib */ = {
-			isa = PBXGroup;
-			children = (
-				71188A68FFF44554FF04614D428BE357 /* Classes */,
-			);
-			name = AHButtonLib;
-			path = AHButtonLib;
 			sourceTree = "<group>";
 		};
 		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
@@ -312,15 +259,6 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		AB02C94D765D376FFAFCAF1BEEEEE566 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				848A22C69638D55424736A7E57530671 /* Foundation.framework */,
-				0DC31C30AA1B843123575E6EBA38993C /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,20 +271,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		AF25BBC42E3681881F83FBD2F6AD1E52 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A6FC3D993854C33727325B3448D232DC /* AHButtonLib.modulemap */,
-				3263B1976BB221A8256FE3039330EE2C /* AHButtonLib.xcconfig */,
-				954DF2C984B45504D297DA9A331C7CCE /* AHButtonLib-dummy.m */,
-				3FC85B2882B85F84078C509997F01131 /* AHButtonLib-prefix.pch */,
-				00E54B0EF88436F19E6E9E9C944065DF /* AHButtonLib-umbrella.h */,
-				0CD5B12077137CD98D17AE524D9923C5 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AHButtonLib";
 			sourceTree = "<group>";
 		};
 		D213EFF4C967C85BCA61BB74C841A803 /* Pods-AHButtonLib_Tests */ = {
@@ -367,6 +291,16 @@
 			path = "Target Support Files/Pods-AHButtonLib_Tests";
 			sourceTree = "<group>";
 		};
+		D5B9710C6FD562E9FB299BA6195DE509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8549EAB82B6DECD2636C2620913E6A /* Masonry.framework */,
+				F2AD8F5E88C16312390EAD6AC896C700 /* Pods_AHButtonLib_Example.framework */,
+				19AB3D4D54CCA4343F9A0226FA914E2E /* Pods_AHButtonLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,11 +312,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		263962FBF02F59FFC39AD26A7943E449 /* Headers */ = {
+		358278969DCBD8C4E0F9DE1B1C3186C5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DA6E7D11620E2EE45C88D35D4A0E9C /* Pods-AHButtonLib_Example-umbrella.h in Headers */,
+				97F1B0E864649F7D2955052B905C579C /* Pods-AHButtonLib_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,35 +328,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5C15294B6E370861D54A5EF90A8C777 /* Headers */ = {
+		F3E9930C736C01D12F5733EFD1F0A948 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C79912803D8280551D0D0D1FD63360E /* MASCompositeConstraint.h in Headers */,
-				66A8A1A16C9D6871449085AAE43F8867 /* MASConstraint+Private.h in Headers */,
-				C5E1CFAEC408F0808A42494E243D1B37 /* MASConstraint.h in Headers */,
-				7B4B41DF77C9F48A25D8B429A1E11715 /* MASConstraintMaker.h in Headers */,
-				C48F921164204BBF46176E7AD9C14602 /* MASLayoutConstraint.h in Headers */,
-				2AABFBA00A0052288FC4E742A9259D81 /* Masonry-umbrella.h in Headers */,
-				3B0F82B357C2319BFCAB0958AB834D4A /* Masonry.h in Headers */,
-				A0F360F0DF876E1DF8A7AD00CF70AAF4 /* MASUtilities.h in Headers */,
-				3654EE0AA9816C22B91936F233D72316 /* MASViewAttribute.h in Headers */,
-				92BABAA41041CE7D66F5DF7F7548F876 /* MASViewConstraint.h in Headers */,
-				BBF9D98010E179D127F68A5F7BC873F1 /* NSArray+MASAdditions.h in Headers */,
-				02E6694B5E4F5C24437E54E196ECFEC5 /* NSArray+MASShorthandAdditions.h in Headers */,
-				0A0F4CAC6668166783CA2668CAC24D20 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				64C3D6510E403FFE0BD0129F3AED31D7 /* View+MASAdditions.h in Headers */,
-				0CAAFB38C8DCDFCEE47E7394FA1FC98E /* View+MASShorthandAdditions.h in Headers */,
-				EE8825F9C6F7512222BC457AF3E8EB93 /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFE2FDEA35D9F88A528A5AB5E866CE6D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA0730A365C06053823C60EBC662221F /* AHButtonLib-umbrella.h in Headers */,
-				125B16CD80BD3084E6E91EB0CB2FEB37 /* ASDButton.h in Headers */,
+				8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */,
+				4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */,
+				C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */,
+				88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */,
+				7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */,
+				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
+				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
+				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
+				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
+				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
+				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
+				D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */,
+				B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */,
+				2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,53 +368,16 @@
 			);
 			name = "Pods-AHButtonLib_Tests";
 			productName = "Pods-AHButtonLib_Tests";
-			productReference = BA95F132D0D8D03F58F887AF6129D4D5 /* Pods_AHButtonLib_Tests.framework */;
+			productReference = 19AB3D4D54CCA4343F9A0226FA914E2E /* Pods_AHButtonLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65CFDA72D05FEC4C8B09ED9030C5D6F9 /* AHButtonLib */ = {
+		D52144DE9D7255DE912490FF5A806573 /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5732E516ABE90EF501D956A61774AA60 /* Build configuration list for PBXNativeTarget "AHButtonLib" */;
+			buildConfigurationList = 02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				E03C4D7CFFFFF9BF1B54770720A833F7 /* Sources */,
-				4B1BAF532C16771538815A9C0F3AEC71 /* Frameworks */,
-				BFE2FDEA35D9F88A528A5AB5E866CE6D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1CC7AC011BB9BC56A1268406AE2B8F39 /* PBXTargetDependency */,
-			);
-			name = AHButtonLib;
-			productName = AHButtonLib;
-			productReference = 5FDCE4E829781FD2AED85E82F233BACB /* AHButtonLib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		92871A46444FCC0BDDD858A2EB8B2D48 /* Pods-AHButtonLib_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BDD25B24B8E915E4FC0649B5B1C60D33 /* Build configuration list for PBXNativeTarget "Pods-AHButtonLib_Example" */;
-			buildPhases = (
-				F394EAA1036B25228540ECBD99E52B5C /* Sources */,
-				D18E11B97C4DF1B43D5CCBFD7C635D7E /* Frameworks */,
-				263962FBF02F59FFC39AD26A7943E449 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FFF3EF3475AA9528280BF3DA2B414BFE /* PBXTargetDependency */,
-				C18E2D618A3C1965E0B6F5CF2D890000 /* PBXTargetDependency */,
-			);
-			name = "Pods-AHButtonLib_Example";
-			productName = "Pods-AHButtonLib_Example";
-			productReference = 2FEC87CBCD27E74571194D94A689B0C6 /* Pods_AHButtonLib_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B49FA643843178271C8245276A6E4F59 /* Masonry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A1157DE47678D7FCD9A7657178A03C6 /* Build configuration list for PBXNativeTarget "Masonry" */;
-			buildPhases = (
-				3CAC5F7C56855203147D8C8C34CAD721 /* Sources */,
-				DA776C8120AAE9B21DFD4A983BC036AD /* Frameworks */,
-				B5C15294B6E370861D54A5EF90A8C777 /* Headers */,
+				00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */,
+				F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */,
+				F3E9930C736C01D12F5733EFD1F0A948 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -497,7 +385,25 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 201CC46DF4E71C6AB311CC814E48C8F7 /* Masonry.framework */;
+			productReference = EF8549EAB82B6DECD2636C2620913E6A /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA55D1DCCE80AE0C3D3DE00B0A523EFA /* Pods-AHButtonLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1F15E46710071236389C2BB6F43490 /* Build configuration list for PBXNativeTarget "Pods-AHButtonLib_Example" */;
+			buildPhases = (
+				1C34D7D8DF848DC7547A7F6031C7E30B /* Sources */,
+				A760B044C3B1B37EBB4689C5DD3DD326 /* Frameworks */,
+				358278969DCBD8C4E0F9DE1B1C3186C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				225F959B2A9B58C28EE4EE7E1233CDD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-AHButtonLib_Example";
+			productName = "Pods-AHButtonLib_Example";
+			productReference = F2AD8F5E88C16312390EAD6AC896C700 /* Pods_AHButtonLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -517,34 +423,41 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8B0E646A1D05BC513E037C9C11D44BD0 /* Products */;
+			productRefGroup = D5B9710C6FD562E9FB299BA6195DE509 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65CFDA72D05FEC4C8B09ED9030C5D6F9 /* AHButtonLib */,
-				B49FA643843178271C8245276A6E4F59 /* Masonry */,
-				92871A46444FCC0BDDD858A2EB8B2D48 /* Pods-AHButtonLib_Example */,
+				D52144DE9D7255DE912490FF5A806573 /* Masonry */,
+				FA55D1DCCE80AE0C3D3DE00B0A523EFA /* Pods-AHButtonLib_Example */,
 				64B298E1C956BA97B3B8D8DA4CC7B523 /* Pods-AHButtonLib_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3CAC5F7C56855203147D8C8C34CAD721 /* Sources */ = {
+		00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF5A356A4705B8459D3F3B3DD846B4FD /* MASCompositeConstraint.m in Sources */,
-				C3E26CE991FFF89835E3450A83F0130C /* MASConstraint.m in Sources */,
-				E0E04DE7DE8E88B72221BFE71755139F /* MASConstraintMaker.m in Sources */,
-				24CF559EBD702C6CF9730C2482D21EEC /* MASLayoutConstraint.m in Sources */,
-				56E88CEE0C992E4BA8A5836C12DE60FD /* Masonry-dummy.m in Sources */,
-				50E1F23E4C8119C7DE16BBC2A7762A10 /* MASViewAttribute.m in Sources */,
-				1D50BF5524E73D51A95C58F2080F3210 /* MASViewConstraint.m in Sources */,
-				9FE91F84DCD081CEAF3FDCEC4C7B390F /* NSArray+MASAdditions.m in Sources */,
-				41A02F766CDC7F72AB0CE8B98A666058 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				B28C3E979D695D888C713833B1298225 /* View+MASAdditions.m in Sources */,
-				AB44B53FBFECDF3CA547ED77FF534C07 /* ViewController+MASAdditions.m in Sources */,
+				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
+				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
+				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
+				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
+				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
+				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,
+				756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */,
+				E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */,
+				0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */,
+				8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C34D7D8DF848DC7547A7F6031C7E30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFAC4C9AFDD041DF3A5B54CE074D744 /* Pods-AHButtonLib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,43 +469,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E03C4D7CFFFFF9BF1B54770720A833F7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12E8617B70BFD091B278A60932A06DA6 /* AHButtonLib-dummy.m in Sources */,
-				CB3B2AA59C74C5506A684C536CC86F8A /* ASDButton.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F394EAA1036B25228540ECBD99E52B5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B2626680038CC8B82DD26A151DA661F /* Pods-AHButtonLib_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1CC7AC011BB9BC56A1268406AE2B8F39 /* PBXTargetDependency */ = {
+		225F959B2A9B58C28EE4EE7E1233CDD5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = B49FA643843178271C8245276A6E4F59 /* Masonry */;
-			targetProxy = EA1B5D2113CAF06E33C138DA8E0A2659 /* PBXContainerItemProxy */;
-		};
-		C18E2D618A3C1965E0B6F5CF2D890000 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = B49FA643843178271C8245276A6E4F59 /* Masonry */;
-			targetProxy = 0DF41680419F96517590C319E0D474B6 /* PBXContainerItemProxy */;
-		};
-		FFF3EF3475AA9528280BF3DA2B414BFE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AHButtonLib;
-			target = 65CFDA72D05FEC4C8B09ED9030C5D6F9 /* AHButtonLib */;
-			targetProxy = 6457AF4B5F024EA125EDF13382CEAC59 /* PBXContainerItemProxy */;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = 48154ADEF8473F7A0315C4E39EC61146 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -677,103 +561,7 @@
 			};
 			name = Release;
 		};
-		438061715D9231D6E7C74F83A33F6B54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3263B1976BB221A8256FE3039330EE2C /* AHButtonLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AHButtonLib/AHButtonLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AHButtonLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AHButtonLib/AHButtonLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AHButtonLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4494F7BFC662B46B998B72DDCB2EAB52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4C6D54D1EECCC82B84E52F1AB1F6D46C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3263B1976BB221A8256FE3039330EE2C /* AHButtonLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AHButtonLib/AHButtonLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AHButtonLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AHButtonLib/AHButtonLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AHButtonLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7185041AE26FAA7B3DDFAF55D2104590 /* Release */ = {
+		2BFD49045A75F07374492F249BAA72D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9338D50D6BAB611DBA2223B59A9833DE /* Pods-AHButtonLib_Example.release.xcconfig */;
 			buildSettings = {
@@ -808,6 +596,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8951671FD3CA0DA552AA0D3F7F3056AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		9F03456D8820FC2426388818D8086CBE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -845,9 +665,9 @@
 			};
 			name = Debug;
 		};
-		BFCB4A64EF214761DD68A70775F51984 /* Debug */ = {
+		A4AC877B1098D75CBA6D8C01CF17C099 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			baseConfigurationReference = 9E1E80E5921B4FA723435DA86DAF19F1 /* Pods-AHButtonLib_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -861,14 +681,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AHButtonLib_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHButtonLib_Example/Pods-AHButtonLib_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Masonry;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHButtonLib_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -925,50 +749,46 @@
 			};
 			name = Debug;
 		};
-		EC074B28E1675EE08B1E3F30B8F6F663 /* Debug */ = {
+		E5F8AC082CD49AC3C6979B5044E0E618 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E1E80E5921B4FA723435DA86DAF19F1 /* Pods-AHButtonLib_Example.debug.xcconfig */;
+			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AHButtonLib_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AHButtonLib_Example/Pods-AHButtonLib_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AHButtonLib_Example;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A1157DE47678D7FCD9A7657178A03C6 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFCB4A64EF214761DD68A70775F51984 /* Debug */,
-				4494F7BFC662B46B998B72DDCB2EAB52 /* Release */,
+				8951671FD3CA0DA552AA0D3F7F3056AD /* Debug */,
+				E5F8AC082CD49AC3C6979B5044E0E618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -982,11 +802,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5732E516ABE90EF501D956A61774AA60 /* Build configuration list for PBXNativeTarget "AHButtonLib" */ = {
+		2F1F15E46710071236389C2BB6F43490 /* Build configuration list for PBXNativeTarget "Pods-AHButtonLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				438061715D9231D6E7C74F83A33F6B54 /* Debug */,
-				4C6D54D1EECCC82B84E52F1AB1F6D46C /* Release */,
+				A4AC877B1098D75CBA6D8C01CF17C099 /* Debug */,
+				2BFD49045A75F07374492F249BAA72D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -996,15 +816,6 @@
 			buildConfigurations = (
 				9F03456D8820FC2426388818D8086CBE /* Debug */,
 				1855BA93A417024BB0E802A5549B1F3F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BDD25B24B8E915E4FC0649B5B1C60D33 /* Build configuration list for PBXNativeTarget "Pods-AHButtonLib_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC074B28E1675EE08B1E3F30B8F6F663 /* Debug */,
-				7185041AE26FAA7B3DDFAF55D2104590 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

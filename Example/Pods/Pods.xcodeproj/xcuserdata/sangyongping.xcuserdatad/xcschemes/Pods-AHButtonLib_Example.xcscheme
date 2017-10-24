@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "92871A46444FCC0BDDD858A2EB8B2D48"
+               BlueprintIdentifier = "FA55D1DCCE80AE0C3D3DE00B0A523EFA"
                BuildableName = "Pods_AHButtonLib_Example.framework"
                BlueprintName = "Pods-AHButtonLib_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "92871A46444FCC0BDDD858A2EB8B2D48"
+            BlueprintIdentifier = "FA55D1DCCE80AE0C3D3DE00B0A523EFA"
             BuildableName = "Pods_AHButtonLib_Example.framework"
             BlueprintName = "Pods-AHButtonLib_Example"
             ReferencedContainer = "container:Pods.xcodeproj">
